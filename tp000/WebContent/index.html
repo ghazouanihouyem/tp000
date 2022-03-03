@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Inscription </title>
+</head>
+<body>
+<form action="POST">
+
+		<fieldset>
+			<legend>Inscription d'un Etudiant </legend>
+			<table>
+			
+				<tr>
+					<td><label> Nom </label></td>
+					<td><input type="text" placeholder="saisir votre nom"/> </td>
+				</tr>
+				<tr>
+					<td><label> Prenom </label></td>
+					<td><input type="text" placeholder="saisir votre prenom"/></td>
+				</tr>
+				<tr>
+					<td><label> Email </label></td>
+					<td><input type="email" placeholder="saisir votre Email"/></td>
+				</tr>
+				<tr>
+					<td><label> Mot de passe </label></td>
+					<td><input type="password" placeholder="saisir votre mot de passe"/></td>
+				</tr>
+				 <tr>
+                      <td>Date de naissance</td>
+                     <td><input type="date" name="date" placeholder="jj/mm/aaaa"></td>  
+                 </tr>
+				<tr>
+					<td>Sexe</td>
+					<td>
+						Masculin <input type="radio" name="sexe" value="M" >
+						Féminin <input type="radio" name="sexe" value="F" checked="checked">
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label>Pays</label></td>
+					<td>
+						<select>
+						<option>Tunis</option>
+						<option>Algérie</option>
+						<option>Maroc</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+                  
+					<td>Spécialité </td>
+					<td><select multiple="multiple">
+						<option> Informatique </option>
+						<option> Gestion </option>
+						<option> Mécanique </option>
+						<option> Electrique </option>
+						<option> Economie </option>
+					</select>  </td>
+				</tr>
+				
+				<tr>
+				<td colspan="2">
+				<input type="submit" value="Soumettre"/> 
+				 <input type="reset" value="Annuler"/></td>
+				</tr>
+			</table>
+		</fieldset>
+		</form>
+
+
+</body>
+</html>
